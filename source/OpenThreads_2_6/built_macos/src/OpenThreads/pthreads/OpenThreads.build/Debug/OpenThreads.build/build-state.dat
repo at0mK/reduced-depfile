@@ -1,0 +1,298 @@
+TOpenThreads
+v4
+r1
+cCheck dependencies
+cCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThread.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadBarrier.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadCondition.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadMutex.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Version.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Atomic.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/libOpenThreadsd.a normal x86_64
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Script-72D24170A5424501A7DBBEDA.sh
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004FCEE46100000000000000EE
+t1338958945
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/pthread.h
+c000000004E360D4D0000000000003CF0
+t1312165197
+s15600
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sched.h
+c000000004E360D4B0000000000000560
+t1312165195
+s1376
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdio.h
+c000000004E360D4E0000000000004763
+t1312165198
+s18275
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/stdlib.h
+c000000004E360D4E00000000000030A7
+t1312165198
+s12455
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/string.h
+c000000004E360D4E0000000000001A3A
+t1312165198
+s6714
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/resource.h
+c000000004E41FFE80000000000002577
+t1312948200
+s9591
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/sysctl.h
+c000000004E41FFEC0000000000007D09
+t1312948204
+s32009
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/time.h
+c000000004E41FFEE0000000000001E64
+t1312948206
+s7780
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/types.h
+c000000004E41FFF00000000000002905
+t1312948208
+s10501
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/sys/unistd.h
+c000000004E41FFF10000000000001D60
+t1312948209
+s7520
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/include/unistd.h
+c000000004E360D4E0000000000006662
+t1312165198
+s26210
+
+N/Developer/usr/lib/clang/3.0/include/limits.h
+c000000004EB4600D0000000000000E51
+t1320443917
+s3665
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/libOpenThreadsd.a
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Atomic.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/OpenThreadsd.LinkFileList
+c000000004FE285150000000000000404
+t1340245269
+s1028
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThread.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadBarrier.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadCondition.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadMutex.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Version.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Script-72D24170A5424501A7DBBEDA.sh
+c000000004FE285150000000000000110
+t1340245269
+s272
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include/OpenThreads/Thread
+c000000004FE27F430000000000003080
+t1340243779
+s12416
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp
+c000000004FE27F43000000000000159A
+t1340243779
+s5530
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp
+c000000004FE27F43000000000000069F
+t1340243779
+s1695
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp
+c000000004FE27F430000000000006366
+t1340243779
+s25446
+i<stdlib.h>
+i<stdio.h>
+i<sys/types.h>
+i<unistd.h>
+i<pthread.h>
+i<limits.h>
+i<string.h>
+i<sys/time.h>
+i<sys/resource.h>
+i<sys/unistd.h>
+i<unistd.h>
+i<sys/mpctl.h>
+i<sched.h>
+i<sys/types.h>
+i<sys/sysctl.h>
+i<OpenThreads/Thread>
+i"PThreadPrivateData.h"
+i<iostream>
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp
+c000000004FE27F430000000000001AD3
+t1340243779
+s6867
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp
+c000000004FE27F430000000000001609
+t1340243779
+s5641
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp
+c000000004FE27F430000000000001233
+t1340243779
+s4659
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadPrivateData.h
+c000000004FE27F430000000000000758
+t1340243779
+s1880
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese2ea3895bc92b541^c0b33995bc92b541^---0#1#0#--18"Check dependencies36"E7E16BC8-60F7-41C0-A791-FCF2CF26AB6A-
+
+CCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Atomic.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361938069.248786
+e361938069.290712
+r1
+xCompileC
+xbuilt_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Atomic.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cppf9d63f95bc92b541^8f6c4a95bc92b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp0000000000000000^2131"CompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Atomic.o src/OpenThreads/common/Atomic.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions "-DCMAKE_INTDIR=\"Debug\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources/x86_64 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Atomic.d -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Atomic.o36"C7F58B3C-E4A0-4C88-9567-1B58A8BB352A-
+
+CCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThread.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361938069.248746
+e361938069.549124
+r1
+xCompileC
+xbuilt_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThread.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp52d23f95bc92b541^cd928c95bc92b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp0000000000000000^2140"CompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThread.o src/OpenThreads/pthreads/PThread.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions "-DCMAKE_INTDIR=\"Debug\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources/x86_64 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThread.d -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThread.o36"6AFAC7EE-E344-4141-8AEC-D86B8E8D64FB-
+
+CCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadBarrier.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361938069.248747
+e361938069.371412
+r1
+xCompileC
+xbuilt_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadBarrier.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cppfed13f95bc92b541^77145f95bc92b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp0000000000000000^2175"CompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadBarrier.o src/OpenThreads/pthreads/PThreadBarrier.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions "-DCMAKE_INTDIR=\"Debug\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources/x86_64 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadBarrier.d -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadBarrier.o36"8F81EF82-847F-4786-A7E0-42A371772516-
+
+CCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadCondition.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361938069.248764
+e361938069.370941
+r1
+xCompileC
+xbuilt_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadCondition.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cppb7d23f95bc92b541^40f65e95bc92b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp0000000000000000^2185"CompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadCondition.o src/OpenThreads/pthreads/PThreadCondition.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions "-DCMAKE_INTDIR=\"Debug\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources/x86_64 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadCondition.d -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadCondition.o36"14C361BE-B1FF-4B84-AB4D-4B967F2D0CD5-
+
+CCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadMutex.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361938069.248775
+e361938069.370571
+r1
+xCompileC
+xbuilt_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadMutex.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cppd4d33f95bc92b541^a9de5e95bc92b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp0000000000000000^2165"CompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadMutex.o src/OpenThreads/pthreads/PThreadMutex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions "-DCMAKE_INTDIR=\"Debug\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources/x86_64 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadMutex.d -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/PThreadMutex.o36"D47504C7-B580-4F95-BF14-EC7F3F76C7A1-
+
+CCompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Version.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s361938069.248778
+e361938069.418869
+r1
+xCompileC
+xbuilt_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Version.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp5ad43f95bc92b541^b83b6b95bc92b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp0000000000000000^2136"CompileC built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Version.o src/OpenThreads/common/Version.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wswitch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions "-DCMAKE_INTDIR=\"Debug\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources/x86_64 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Version.d -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Version.o36"22814568-CDD8-487F-A157-8D0FB04598F3-
+
+CLibtool /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/libOpenThreadsd.a normal x86_64
+s361938069.556724
+e361938069.588908
+r1
+xLibtool
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/libOpenThreadsd.a
+xnormal
+xx86_64
+o/Developer/usr/bin/libtool: file: /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/Atomic.o has no symbols
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Libtool built_macos/lib/Debug/libOpenThreadsd.a normal x86_64af978e95bc92b541^a8c39695bc92b541^---0#0#0#--642"Libtool built_macos/lib/Debug/libOpenThreadsd.a normal x86_64    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug -filelist /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Objects-normal/x86_64/OpenThreadsd.LinkFileList -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug/libOpenThreadsd.a36"EDEBF554-8183-4EE9-A779-D3EFACD7AB57-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Script-72D24170A5424501A7DBBEDA.sh
+s361938069.597709
+e361938069.622236
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Script-72D24170A5424501A7DBBEDA.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos && make -C /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.OpenThreads.Debug
+omake[1]: Nothing to be done for `PostBuild.OpenThreads.Debug'.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'73b99995bc92b541^404b9f95bc92b541^-406"echo "Depend check for xcode"Depend check for xcodecd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos && make -C /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.OpenThreads.Debugmake[1]: Nothing to be done for `PostBuild.OpenThreads.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-361938069#0#30#-0#-----2@23"Depend check for xcode-361938069#30#23#-0#-----2@290"cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos && make -C /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.OpenThreads.Debug-361938069#53#290#-0#-----2@63"make[1]: Nothing to be done for `PostBuild.OpenThreads.Debug'.-361938069#343#63#-0#-----0#0#0#--409"PhaseScriptExecution "CMake PostBuild Rules" built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Script-72D24170A5424501A7DBBEDA.sh    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    /bin/sh -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/OpenThreads.build/Debug/OpenThreads.build/Script-72D24170A5424501A7DBBEDA.sh36"617E7531-222B-436D-94F6-0401E0D7C69E-
+

@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2933B0D3E0EC4090824A19B2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B215ED1D89A74A8383C3BF11 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				132015E6C6EF49AB9930464A /* CMake Rules */,
+			);
+			dependencies = (
+				F518F4267AF7485AABABA423 /* PBXTargetDependency */,
+				EA0CF81B22E14C9B839707E1 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		3142DB4392FE43D0AC59DFFF /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 36C41EE899334C3E931EBAD5 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				338BA5A351EF4CD5AA8AB15C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				CBA5EE6FDF11402C9593FD5C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		92C60C01F0914BC496A5828F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 008BC0CC2AFE4315A24D1BF4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				560794915E5D4D98ADF13B4F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2A0774E5340842818CE4E8D7 /* Atomic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5819AC7BC2DA452AB3B9E247 /* Atomic.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		364F6F02C28646989940C6DF /* PThreadCondition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D861FFC624854E79B9A9B340 /* PThreadCondition.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7C5FB7DB97BE48E68AEE229B /* PThreadBarrier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B667F474CB44CDD9080985B /* PThreadBarrier.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B1C8D09601864B12A5B8F589 /* Version.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7698D2E414B4959B6B7D8DD /* Version.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B8E72722EF8C4039AB0503EA /* PThreadMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C949C741CE0747A7A5299F50 /* PThreadMutex.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		D3EF7532563F421599DD7C35 /* PThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98F8F2555B9641F79FEE9585 /* PThread.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CCC319812D74651852D33A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC4A245DCC84210AD3E492B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F644861A4AC4C90A9302DD2;
+			remoteInfo = OpenThreads;
+		};
+		7981D2A3011E420FB4348657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC4A245DCC84210AD3E492B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2933B0D3E0EC4090824A19B2;
+			remoteInfo = ALL_BUILD;
+		};
+		C917898ACB104BC18A28E5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AC4A245DCC84210AD3E492B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C60C01F0914BC496A5828F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045225E0DA5A40DE9EE5103C /* Atomic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Atomic; path = include/OpenThreads/Atomic; sourceTree = SOURCE_ROOT; };
+		0A965FC192A64CB488A0F707 /* ScopedLock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = ScopedLock; path = include/OpenThreads/ScopedLock; sourceTree = SOURCE_ROOT; };
+		1910B49234BC4030B7E241F3 /* Version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Version; path = include/OpenThreads/Version; sourceTree = SOURCE_ROOT; };
+		1F7F9D9C953441F3AB3F18D5 /* Barrier */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Barrier; path = include/OpenThreads/Barrier; sourceTree = SOURCE_ROOT; };
+		2CB17C947EA4401E9EBD34D0 /* PThreadBarrierPrivateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PThreadBarrierPrivateData.h; path = src/OpenThreads/pthreads/PThreadBarrierPrivateData.h; sourceTree = SOURCE_ROOT; };
+		31028E2471714EDE95316E80 /* Condition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Condition; path = include/OpenThreads/Condition; sourceTree = SOURCE_ROOT; };
+		32BF68B44A5B437FAE683101 /* PThreadPrivateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PThreadPrivateData.h; path = src/OpenThreads/pthreads/PThreadPrivateData.h; sourceTree = SOURCE_ROOT; };
+		3B667F474CB44CDD9080985B /* PThreadBarrier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PThreadBarrier.cpp; path = src/OpenThreads/pthreads/PThreadBarrier.cpp; sourceTree = SOURCE_ROOT; };
+		40F65ABD48D44E7EBEF4C4E4 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		432175BD53624A1794E5DAFB /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.text; name = CMakeLists.txt; path = src/OpenThreads/pthreads/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		43E09790287C4E7EA61BC567 /* Mutex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Mutex; path = include/OpenThreads/Mutex; sourceTree = SOURCE_ROOT; };
+		480E82F7B19240D1B12C7204 /* ReadWriteMutex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = ReadWriteMutex; path = include/OpenThreads/ReadWriteMutex; sourceTree = SOURCE_ROOT; };
+		5819AC7BC2DA452AB3B9E247 /* Atomic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Atomic.cpp; path = src/OpenThreads/common/Atomic.cpp; sourceTree = SOURCE_ROOT; };
+		92B0F7D710514CB79A429C16 /* PThreadConditionPrivateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PThreadConditionPrivateData.h; path = src/OpenThreads/pthreads/PThreadConditionPrivateData.h; sourceTree = SOURCE_ROOT; };
+		941F2A9D7EFD41A3802F4409 /* Exports */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Exports; path = include/OpenThreads/Exports; sourceTree = SOURCE_ROOT; };
+		98F8F2555B9641F79FEE9585 /* PThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PThread.cpp; path = src/OpenThreads/pthreads/PThread.cpp; sourceTree = SOURCE_ROOT; };
+		997AB5C1C8DF4BCC824A9E58 /* Config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Config; path = built_macos/include/OpenThreads/Config; sourceTree = SOURCE_ROOT; };
+		9BF6F5EB27024F09A1296391 /* ReentrantMutex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = ReentrantMutex; path = include/OpenThreads/ReentrantMutex; sourceTree = SOURCE_ROOT; };
+		A6F57B2BBFE74BE8BDD2A14D /* PThreadMutexPrivateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PThreadMutexPrivateData.h; path = src/OpenThreads/pthreads/PThreadMutexPrivateData.h; sourceTree = SOURCE_ROOT; };
+		BDDD5B005A6D49B29457760B /* Block */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Block; path = include/OpenThreads/Block; sourceTree = SOURCE_ROOT; };
+		C3277BE92D0C4DAA8969EE73 /* libOpenThreadsd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOpenThreadsd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C949C741CE0747A7A5299F50 /* PThreadMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PThreadMutex.cpp; path = src/OpenThreads/pthreads/PThreadMutex.cpp; sourceTree = SOURCE_ROOT; };
+		D861FFC624854E79B9A9B340 /* PThreadCondition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PThreadCondition.cpp; path = src/OpenThreads/pthreads/PThreadCondition.cpp; sourceTree = SOURCE_ROOT; };
+		D9C41D9513EA40FB9B4B719F /* Thread */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode; name = Thread; path = include/OpenThreads/Thread; sourceTree = SOURCE_ROOT; };
+		F7698D2E414B4959B6B7D8DD /* Version.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Version.cpp; path = src/OpenThreads/common/Version.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		096616A9A946464BB73FF4E8 /* OpenThreads */ = {
+			isa = PBXGroup;
+			children = (
+				D1CA5F27CF30487C8BB23B76 /* Source Files */,
+				41B5343E4E4C4F67B1FD7FA6 /* Header Files */,
+				045225E0DA5A40DE9EE5103C /* Atomic */,
+				1F7F9D9C953441F3AB3F18D5 /* Barrier */,
+				BDDD5B005A6D49B29457760B /* Block */,
+				31028E2471714EDE95316E80 /* Condition */,
+				941F2A9D7EFD41A3802F4409 /* Exports */,
+				43E09790287C4E7EA61BC567 /* Mutex */,
+				480E82F7B19240D1B12C7204 /* ReadWriteMutex */,
+				9BF6F5EB27024F09A1296391 /* ReentrantMutex */,
+				0A965FC192A64CB488A0F707 /* ScopedLock */,
+				D9C41D9513EA40FB9B4B719F /* Thread */,
+				1910B49234BC4030B7E241F3 /* Version */,
+				997AB5C1C8DF4BCC824A9E58 /* Config */,
+				432175BD53624A1794E5DAFB /* CMakeLists.txt */,
+			);
+			name = OpenThreads;
+			sourceTree = "<group>";
+		};
+		3F942D95064047F696E65978 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41B5343E4E4C4F67B1FD7FA6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CB17C947EA4401E9EBD34D0 /* PThreadBarrierPrivateData.h */,
+				92B0F7D710514CB79A429C16 /* PThreadConditionPrivateData.h */,
+				A6F57B2BBFE74BE8BDD2A14D /* PThreadMutexPrivateData.h */,
+				32BF68B44A5B437FAE683101 /* PThreadPrivateData.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		50753C37E6CD42D5A9BE41D1 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				EB0C192563404CEE89317C0A /* CMake Rules */,
+				40F65ABD48D44E7EBEF4C4E4 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		595C72A50A98484C91CA07B7 = {
+			isa = PBXGroup;
+			children = (
+				8027CB879B7C4167842F9CA6 /* Sources */,
+				3F942D95064047F696E65978 /* Resources */,
+				EA3B079071B742E88ABFF053 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8027CB879B7C4167842F9CA6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C433E7644D564A1680280A3D /* ALL_BUILD */,
+				50753C37E6CD42D5A9BE41D1 /* ZERO_CHECK */,
+				096616A9A946464BB73FF4E8 /* OpenThreads */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		A6DB2481ACB44CF7A0A0E598 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C433E7644D564A1680280A3D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A6DB2481ACB44CF7A0A0E598 /* CMake Rules */,
+				40F65ABD48D44E7EBEF4C4E4 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D1CA5F27CF30487C8BB23B76 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				98F8F2555B9641F79FEE9585 /* PThread.cpp */,
+				3B667F474CB44CDD9080985B /* PThreadBarrier.cpp */,
+				D861FFC624854E79B9A9B340 /* PThreadCondition.cpp */,
+				C949C741CE0747A7A5299F50 /* PThreadMutex.cpp */,
+				F7698D2E414B4959B6B7D8DD /* Version.cpp */,
+				5819AC7BC2DA452AB3B9E247 /* Atomic.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EA3B079071B742E88ABFF053 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3277BE92D0C4DAA8969EE73 /* libOpenThreadsd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0C192563404CEE89317C0A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F644861A4AC4C90A9302DD2 /* OpenThreads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32908F85F2F4EFF8ABF0BE7 /* Build configuration list for PBXNativeTarget "OpenThreads" */;
+			buildPhases = (
+				DD11A446AD4046D896CAC2CE /* Sources */,
+				72D24170A5424501A7DBBEDA /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0CF81B22E14C9B839707E1 /* PBXTargetDependency */,
+			);
+			name = OpenThreads;
+			productName = OpenThreads;
+			productReference = C3277BE92D0C4DAA8969EE73 /* libOpenThreadsd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AC4A245DCC84210AD3E492B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B80069FFE1024FC988E9A647 /* Build configuration list for PBXProject "OpenThreads" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 595C72A50A98484C91CA07B7;
+			projectDirPath = ..;
+			projectRoot = "";
+			targets = (
+				2933B0D3E0EC4090824A19B2 /* ALL_BUILD */,
+				92C60C01F0914BC496A5828F /* ZERO_CHECK */,
+				3142DB4392FE43D0AC59DFFF /* install */,
+				0F644861A4AC4C90A9302DD2 /* OpenThreads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		132015E6C6EF49AB9930464A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		338BA5A351EF4CD5AA8AB15C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		560794915E5D4D98ADF13B4F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		72D24170A5424501A7DBBEDA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads/CMakeScripts/OpenThreads_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD11A446AD4046D896CAC2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EF7532563F421599DD7C35 /* PThread.cpp in Sources */,
+				7C5FB7DB97BE48E68AEE229B /* PThreadBarrier.cpp in Sources */,
+				364F6F02C28646989940C6DF /* PThreadCondition.cpp in Sources */,
+				B8E72722EF8C4039AB0503EA /* PThreadMutex.cpp in Sources */,
+				B1C8D09601864B12A5B8F589 /* Version.cpp in Sources */,
+				2A0774E5340842818CE4E8D7 /* Atomic.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA5EE6FDF11402C9593FD5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2933B0D3E0EC4090824A19B2 /* ALL_BUILD */;
+			targetProxy = 7981D2A3011E420FB4348657 /* PBXContainerItemProxy */;
+		};
+		EA0CF81B22E14C9B839707E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C60C01F0914BC496A5828F /* ZERO_CHECK */;
+			targetProxy = C917898ACB104BC18A28E5CA /* PBXContainerItemProxy */;
+		};
+		F518F4267AF7485AABABA423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F644861A4AC4C90A9302DD2 /* OpenThreads */;
+			targetProxy = 3CCC319812D74651852D33A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07B480E84CA14FB19E5B4D1A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		11676A3081AA40F989E848D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		19C0DFDDB57C4EB0B442C8A6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+					OPENTHREADS_EXPORTS,
+					HAVE_PTHREAD_TESTCANCEL,
+					HAVE_PTHREAD_CANCEL,
+					HAVE_PTHREAD_SETCANCELSTATE,
+					HAVE_SCHED_YIELD,
+					HAVE_PTHREAD_SETCONCURRENCY,
+					HAVE_PTHREAD_GETCONCURRENCY,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include,
+					/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OpenThreads;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		232DDA298244402CB527AAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+					OPENTHREADS_EXPORTS,
+					HAVE_PTHREAD_TESTCANCEL,
+					HAVE_PTHREAD_CANCEL,
+					HAVE_PTHREAD_SETCANCELSTATE,
+					HAVE_SCHED_YIELD,
+					HAVE_PTHREAD_SETCONCURRENCY,
+					HAVE_PTHREAD_GETCONCURRENCY,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include,
+					/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OpenThreadsd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		3C976A8235D649D88F3AF671 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		478CA680CFB9490D8BB34481 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+					OPENTHREADS_EXPORTS,
+					HAVE_PTHREAD_TESTCANCEL,
+					HAVE_PTHREAD_CANCEL,
+					HAVE_PTHREAD_SETCANCELSTATE,
+					HAVE_SCHED_YIELD,
+					HAVE_PTHREAD_SETCONCURRENCY,
+					HAVE_PTHREAD_GETCONCURRENCY,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include,
+					/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OpenThreads;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		6DFC63DF4A5F4917906B53B8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7554865AFC1B438BA5892D47 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		812F6E6C396449E09B5E92C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+					OPENTHREADS_EXPORTS,
+					HAVE_PTHREAD_TESTCANCEL,
+					HAVE_PTHREAD_CANCEL,
+					HAVE_PTHREAD_SETCANCELSTATE,
+					HAVE_SCHED_YIELD,
+					HAVE_PTHREAD_SETCONCURRENCY,
+					HAVE_PTHREAD_GETCONCURRENCY,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include,
+					/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OpenThreads;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/src/OpenThreads/pthreads;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		8CFAC2CA47CE44B095193AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.7.sdk;
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/build;
+			};
+			name = Release;
+		};
+		A7C13DB806FC4E29A00C60B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		B63DE1F7EA814164BA5D3B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.7.sdk;
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/build;
+			};
+			name = Debug;
+		};
+		B8F71AC421474922BED63E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		BCDBB68F6986431CB2E71C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		C7A6C338E47F45D6B1E2B8E8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		CDE93DBE02274A1986D5984F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.7.sdk;
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/build;
+			};
+			name = MinSizeRel;
+		};
+		D9DDD5322C0840FBAF05AD68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		EE2D4F09A8CE47ACAAFDE0ED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.7.sdk;
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F88C29097F5F4EB2894351ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		F8EA4FF8F58B492889558ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					OPENTHREADS_EXPORTS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008BC0CC2AFE4315A24D1BF4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F71AC421474922BED63E47 /* Debug */,
+				D9DDD5322C0840FBAF05AD68 /* Release */,
+				11676A3081AA40F989E848D3 /* MinSizeRel */,
+				6DFC63DF4A5F4917906B53B8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		36C41EE899334C3E931EBAD5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C13DB806FC4E29A00C60B5 /* Debug */,
+				F88C29097F5F4EB2894351ED /* Release */,
+				07B480E84CA14FB19E5B4D1A /* MinSizeRel */,
+				3C976A8235D649D88F3AF671 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B215ED1D89A74A8383C3BF11 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDBB68F6986431CB2E71C60 /* Debug */,
+				F8EA4FF8F58B492889558ABC /* Release */,
+				7554865AFC1B438BA5892D47 /* MinSizeRel */,
+				C7A6C338E47F45D6B1E2B8E8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B80069FFE1024FC988E9A647 /* Build configuration list for PBXProject "OpenThreads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63DE1F7EA814164BA5D3B8A /* Debug */,
+				8CFAC2CA47CE44B095193AB1 /* Release */,
+				CDE93DBE02274A1986D5984F /* MinSizeRel */,
+				EE2D4F09A8CE47ACAAFDE0ED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E32908F85F2F4EFF8ABF0BE7 /* Build configuration list for PBXNativeTarget "OpenThreads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232DDA298244402CB527AAA4 /* Debug */,
+				812F6E6C396449E09B5E92C8 /* Release */,
+				19C0DFDDB57C4EB0B442C8A6 /* MinSizeRel */,
+				478CA680CFB9490D8BB34481 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AC4A245DCC84210AD3E492B /* Project object */;
+}

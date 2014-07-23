@@ -1,0 +1,46 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-53C3B6F659D24212B05FA209.sh
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-53C3B6F659D24212B05FA209.sh
+c000000004FD0133E00000000000000D7
+t1339036478
+s215
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-9F1C31907632496D89E7F6B8.sh
+c000000004FCEE8A000000000000000D7
+t1338960032
+s215
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb6bdc9c74c80b541^795bcdc74c80b541^---0#1#0#--18"Check dependencies36"E4321FA8-1592-45EA-BDE5-8896662E8939-
+
+CPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-53C3B6F659D24212B05FA209.sh
+s360729799.804359
+e360729799.855501
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-53C3B6F659D24212B05FA209.sh
+oecho ""
+o
+omake -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'1cb4cfc74c80b541^2e02dbc74c80b541^-164"echo ""make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-360729799#0#8#-0#-----2@100"make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/CMakeScripts/ReRunCMake.make-360729799#9#100#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-360729799#109#55#-0#-----0#0#0#--353"PhaseScriptExecution "CMake Rules" built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-53C3B6F659D24212B05FA209.sh    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    /bin/sh -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-53C3B6F659D24212B05FA209.sh36"A5208AD0-7CF3-447D-916B-F3FFF248E4C1-
+
+CPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-9F1C31907632496D89E7F6B8.sh
+s360652832.919288
+e360652833.054330
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-9F1C31907632496D89E7F6B8.sh
+oecho ""
+o
+omake -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'ea58ed20207fb541^60e80d21207fb541^-164"echo ""make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-360652833#0#8#-0#-----2@100"make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/CMakeScripts/ReRunCMake.make-360652833#9#100#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-360652833#109#55#-0#-----0#0#0#--353"PhaseScriptExecution "CMake Rules" built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-9F1C31907632496D89E7F6B8.sh    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    /bin/sh -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-9F1C31907632496D89E7F6B8.sh36"F99620A0-9553-40DD-B27D-039B9FC3966A-
+

@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/src/OpenThreads/CMakeLists.txt
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/CMakeModules/CheckAtomicOps.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeExpandImportedTargets.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/src/OpenThreads/common/Config.in
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/src/OpenThreads/common/Version.in
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/PlatformSpecifics/Windows/OpenThreadsVersionInfo.rc.in
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/CMakeModules/FindThreads.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeExpandImportedTargets.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/packaging/pkgconfig/openthreads.pc.in

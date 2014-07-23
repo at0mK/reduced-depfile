@@ -1,0 +1,283 @@
+TOpenThreads
+v5
+r1
+cCheck dependencies
+cCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThread.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadCondition.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadBarrier.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Version.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadMutex.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Atomic.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/pthread.h
+c000000004FCC2F7C0000000000003CF0
+t1338781564
+s15600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/sched.h
+c000000004FCC2F7C0000000000000560
+t1338781564
+s1376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/stdio.h
+c000000004FCC2F7C0000000000004763
+t1338781564
+s18275
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/stdlib.h
+c000000004FCC2F7C00000000000030A7
+t1338781564
+s12455
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/string.h
+c000000004FCC2F7C0000000000001A3A
+t1338781564
+s6714
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/sys/resource.h
+c000000004FCC2F7C0000000000002577
+t1338781564
+s9591
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/sys/sysctl.h
+c000000004FCC2F7C0000000000007D4E
+t1338781564
+s32078
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/sys/time.h
+c000000004FCC2F7C0000000000001E64
+t1338781564
+s7780
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/sys/types.h
+c000000004FCC2F7C0000000000002905
+t1338781564
+s10501
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/sys/unistd.h
+c000000004FCC2F7C0000000000001D60
+t1338781564
+s7520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/include/unistd.h
+c000000004FCC2F7C00000000000066D1
+t1338781564
+s26321
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/3.1/include/limits.h
+c000000004FCC2FCB0000000000000E51
+t1338781643
+s3665
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug/libOpenThreadsd.a
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Atomic.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/OpenThreadsd.LinkFileList
+c000000004FCEE8A10000000000000410
+t1338960033
+s1040
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThread.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadBarrier.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadCondition.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadMutex.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Version.o
+t2
+s0
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Script-CBAE38C7D750499E8EB7EB13.sh
+c000000004FCEE8A10000000000000104
+t1338960033
+s260
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include/OpenThreads/Thread
+c000000004FCEE7A30000000000003080
+t1338959779
+s12416
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp
+c000000004FCEE7A300000000000015A0
+t1338959779
+s5536
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp
+c000000004FCEE7A3000000000000069F
+t1338959779
+s1695
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp
+c000000004FCEE7A30000000000006366
+t1338959779
+s25446
+i<stdlib.h>
+i<stdio.h>
+i<sys/types.h>
+i<unistd.h>
+i<pthread.h>
+i<limits.h>
+i<string.h>
+i<sys/time.h>
+i<sys/resource.h>
+i<sys/unistd.h>
+i<unistd.h>
+i<sys/mpctl.h>
+i<sched.h>
+i<sys/types.h>
+i<sys/sysctl.h>
+i<OpenThreads/Thread>
+i"PThreadPrivateData.h"
+i<iostream>
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp
+c000000004FCEE7A30000000000001AD3
+t1338959779
+s6867
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp
+c000000004FCEE7A30000000000001609
+t1338959779
+s5641
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp
+c000000004FCEE7A30000000000001233
+t1338959779
+s4659
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadPrivateData.h
+c000000004FCEE7A30000000000000758
+t1338959779
+s1880
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp
+r0
+
+CBuild AST from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7cd51221207fb541^19371921207fb541^---0#1#0#--18"Check dependencies36"5A47377A-2D34-4BC6-AF3E-B503B1A4CC0D-
+
+CCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Atomic.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s360652833.103237
+e360652833.563891
+r0
+xCompileC
+xbuilt/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Atomic.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp:14:
+o/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include/OpenThreads/Atomic:244:48: error: cannot initialize a parameter of type 'void *' with an lvalue of type 'const void *const'
+o    return __sync_bool_compare_and_swap(&_ptr, ptrOld, ptrNew);
+o                                               ^~~~~~
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp52b81a21207fb541^23499021207fb541^-443"In file included from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp:14:/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include/OpenThreads/Atomic:244:48: error: cannot initialize a parameter of type 'void *' with an lvalue of type 'const void *const'    return __sync_bool_compare_and_swap(&_ptr, ptrOld, ptrNew);                                               ^~~~~~1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@89"Cannot initialize a parameter of type 'void *' with an lvalue of type 'const void *const'-360652833#18446744073709551615#0#1(2@116"In file included from /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp:14:-360652833#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@106"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp0000000000000000^13#9#13#9#651#0#30"Apple LLVM compiler 3.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include/OpenThreads/Atomic0000000000000000^243#47#243#47#7125#0#14"Semantic Issue1(3@99"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include/OpenThreads/Atomic0000000000000000^243#47#243#53#7125#0#-0#0#0#-19%DVTDocumentLocation4@106"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp0000000000000000^2912"CompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Atomic.o src/OpenThreads/common/Atomic.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources/armv7 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Atomic.d --serialize-diagnostics /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Atomic.dia -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Atomic.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Atomic.o36"E49F0D04-A3CB-48CF-A360-FB6AFBF6FC36-
+
+CCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThread.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s360652833.102385
+e360652833.866534
+r1
+xCompileC
+xbuilt/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThread.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp9a5e1a21207fb541^7fd9dd21207fb541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp0000000000000000^2922"CompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThread.o src/OpenThreads/pthreads/PThread.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources/armv7 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThread.d --serialize-diagnostics /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThread.dia -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThread.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThread.o36"4F84C7C2-9B1E-40D5-A40F-B43595F6C408-
+
+CCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadBarrier.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s360652833.103137
+e360652833.765373
+r1
+xCompileC
+xbuilt/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadBarrier.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp59a71a21207fb541^61a6d521207fb541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp0000000000000000^2964"CompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadBarrier.o src/OpenThreads/pthreads/PThreadBarrier.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources/armv7 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadBarrier.d --serialize-diagnostics /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadBarrier.dia -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadBarrier.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadBarrier.o36"55F7219D-9702-45FA-A811-5D1DDE854346-
+
+CCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadCondition.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s360652833.103149
+e360652833.765369
+r1
+xCompileC
+xbuilt/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadCondition.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp8aab1a21207fb541^73a2d521207fb541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp0000000000000000^2976"CompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadCondition.o src/OpenThreads/pthreads/PThreadCondition.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources/armv7 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadCondition.d --serialize-diagnostics /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadCondition.dia -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadCondition.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadCondition.o36"49EABB92-9080-4E73-A07C-759D606D7E92-
+
+CCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadMutex.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s360652833.103209
+e360652833.765377
+r1
+xCompileC
+xbuilt/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadMutex.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cppabaf1a21207fb541^419ed521207fb541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp0000000000000000^2952"CompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadMutex.o src/OpenThreads/pthreads/PThreadMutex.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources/armv7 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadMutex.d --serialize-diagnostics /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadMutex.dia -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/pthreads/PThreadMutex.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/PThreadMutex.o36"06A82507-3689-41D5-8130-C9B51A839AAC-
+
+CCompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Version.o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s360652833.103193
+e360652833.765358
+r1
+xCompileC
+xbuilt/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Version.o
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp60b11a21207fb541^4e97d521207fb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp0000000000000000^2918"CompileC built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Version.o src/OpenThreads/common/Version.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DOPENTHREADS_EXPORTS -DOPENTHREADS_EXPORTS -DHAVE_PTHREAD_TESTCANCEL -DHAVE_PTHREAD_CANCEL -DHAVE_PTHREAD_SETCANCELSTATE -DHAVE_SCHED_YIELD -DHAVE_PTHREAD_SETCONCURRENCY -DHAVE_PTHREAD_GETCONCURRENCY -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/include -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources/armv7 -I/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug -MMD -MT dependencies -MF /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Version.d --serialize-diagnostics /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Version.dia -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/src/OpenThreads/common/Version.cpp -o /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Objects-normal/armv7/Version.o36"9B6E8070-FD32-41D1-A65A-ADAD296C90A8-
+
+CLibtool /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/lib/Debug/libOpenThreadsd.a normal armv7
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built/src/OpenThreads/pthreads/OpenThreads.build/Debug-iphoneos/OpenThreads.build/Script-CBAE38C7D750499E8EB7EB13.sh
+r0
+

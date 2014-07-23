@@ -1,0 +1,28 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/OpenThreads.build/Release/ZERO_CHECK.build/Script-560794915E5D4D98ADF13B4F.sh
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/OpenThreads.build/Release/ZERO_CHECK.build/Script-560794915E5D4D98ADF13B4F.sh
+c000000004FE2853400000000000000E3
+t1340245300
+s227
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0bf12cb4bc92b541^d57831b4bc92b541^---0#1#0#--18"Check dependencies36"49FB3365-E4C9-466F-A26E-B7293645796D-
+
+CPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/OpenThreads.build/Release/ZERO_CHECK.build/Script-560794915E5D4D98ADF13B4F.sh
+s361938100.189236
+e361938100.227039
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/OpenThreads.build/Release/ZERO_CHECK.build/Script-560794915E5D4D98ADF13B4F.sh
+oecho ""
+o
+omake -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'3dd230b4bc92b541^7d1f3ab4bc92b541^-170"echo ""make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-361938100#0#8#-0#-----2@106"make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/CMakeScripts/ReRunCMake.make-361938100#9#106#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-361938100#115#55#-0#-----0#0#0#--351"PhaseScriptExecution "CMake Rules" built_macos/OpenThreads.build/Release/ZERO_CHECK.build/Script-560794915E5D4D98ADF13B4F.sh    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    /bin/sh -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_macos/OpenThreads.build/Release/ZERO_CHECK.build/Script-560794915E5D4D98ADF13B4F.sh36"A4C9A58C-5C7F-40E6-A5BD-0C02A6B76EA4-
+

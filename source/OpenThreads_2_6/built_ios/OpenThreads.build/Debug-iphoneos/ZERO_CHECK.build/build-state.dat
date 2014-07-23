@@ -1,0 +1,46 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-7731D472555C466A9B2A2630.sh
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh
+c000000004FD55F2000000000000000DF
+t1339383584
+s223
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-7731D472555C466A9B2A2630.sh
+c000000004FD5799C00000000000000DF
+t1339390364
+s223
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4b755d6fb185b541^a9f8636fb185b541^---0#1#0#--18"Check dependencies36"470D8AD1-4A6E-4DF9-BABC-39F5CBBB449C-
+
+CPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh
+s361079961.138658
+e361079961.180657
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh
+oecho ""
+o
+omake -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'35072499a485b541^363f2e99a485b541^-168"echo ""make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-361079961#0#8#-0#-----2@104"make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.make-361079961#9#104#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-361079961#113#55#-0#-----0#0#0#--361"PhaseScriptExecution "CMake Rules" built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    /bin/sh -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh36"44D3E995-0FDC-4078-BE32-1825F480A8AF-
+
+CPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-7731D472555C466A9B2A2630.sh
+s361083247.367626
+e361083247.420263
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-7731D472555C466A9B2A2630.sh
+oecho ""
+o
+omake -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'a8715f6fb185b541^7d966b6fb185b541^-168"echo ""make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-361083247#0#8#-0#-----2@104"make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.make-361083247#9#104#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-361083247#113#55#-0#-----0#0#0#--423"PhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-7731D472555C466A9B2A2630.sh    cd /Users/hfu/GIT/runtime3d_6.11/Source/3rdParty/OpenThreads_2_6    /bin/sh -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphoneos/ZERO_CHECK.build/Script-7731D472555C466A9B2A2630.sh36"5E85718C-36FC-4789-A63F-10992D786CF4-
+

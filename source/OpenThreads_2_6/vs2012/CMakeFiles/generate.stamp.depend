@@ -1,0 +1,30 @@
+# CMake generation dependency list for this directory.
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/CMakeLists.txt
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/vs2012/CMakeFiles/CMakeSystem.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/vs2012/CMakeFiles/CMakeCCompiler.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/vs2012/CMakeFiles/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/vs2012/CMakeFiles/CMakeCPlatform.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/vs2012/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/vs2012/CMakeFiles/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/vs2012/CMakeFiles/CMakeCPlatform.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/vs2012/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+D:/WORK_HOME/Git/qd/3rdParty/source/OpenThreads_2_6/CMakeModules/FindThreads.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeExpandImportedTargets.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Documentation.cmake

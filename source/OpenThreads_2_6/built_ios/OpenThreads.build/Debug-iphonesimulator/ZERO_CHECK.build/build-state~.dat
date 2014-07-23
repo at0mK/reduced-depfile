@@ -1,0 +1,28 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh
+
+N/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh
+c000000004FD55F4100000000000000DF
+t1339383617
+s223
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesba67b5c19685b541^9b01bec19685b541^---0#1#0#--18"Check dependencies36"B303A3A6-33EF-42C1-B72B-0EBCFB52AD54-
+
+CPhaseScriptExecution "CMake Rules" /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh
+s361076417.743744
+e361076417.782211
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh
+oecho ""
+o
+omake -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'21cbbec19685b541^1c3fc8c19685b541^-168"echo ""make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-361076417#0#8#-0#-----2@104"make -f /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/CMakeScripts/ReRunCMake.make-361076417#9#104#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-361076417#113#55#-0#-----0#0#0#--375"PhaseScriptExecution "CMake Rules" built_ios/OpenThreads.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh    cd /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6    /bin/sh -c /Users/hfu/GIT/runtime3d/Source/3rdParty/OpenThreads_2_6/built_ios/OpenThreads.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-2753C914AECC45989CB36189.sh36"2A7CF0D1-F47A-4CC0-B645-0838B3D910E4-
+
